@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.steven.resitapp.LoginProfile">
+
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ImageButton"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="#00ffffff"
+    android:src="@mipmap/add_btn"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextTitle"
+        android:background="@drawable/outline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+       android:layout_below="@+id/ImageButton"
+        android:hint="Enter Title For Item"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextPrice"
+        android:background="@drawable/outline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:layout_below="@+id/edittextTitle"
+        android:hint="Enter Price For Item"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextDescription"
+        android:background="@drawable/outline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:layout_below="@+id/edittextPrice"
+        android:hint="Enter Description For Item"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sell Item"
+        android:id="@+id/btnsellitem"
+        android:layout_below="@+id/edittextDescription"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Clothes Category"
+        android:id="@+id/btnclothescategory"
+        android:layout_below="@+id/btnsellitem"
+        android:layout_marginTop="10dp"
+
+        />
+
+</RelativeLayout>

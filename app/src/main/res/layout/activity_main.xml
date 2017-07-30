@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.steven.resitapp.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter your username"
+        android:background="@drawable/outline"
+        android:padding="15dp"
+        android:id="@+id/username"
+        android:layout_above="@+id/password"
+        android:layout_margin="25dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/signUpButton"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="15dp"
+        android:text="SIgnUp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUpButton"
+        android:text="Login"
+        android:id="@+id/Login"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outline"
+        android:padding="15dp"
+        android:id="@+id/password"
+        android:hint="Enter your password"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/username" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Online Shopping Cart App"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:id="@+id/ShoppingCartTextView"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ShoppingCartTextView"
+        android:layout_marginTop="15dp"
+        android:text="   In Order to Continue Please Sign up "
+        android:id="@+id/SignUpTextView"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignUpTextView"
+        android:layout_marginTop="5dp"
+        android:text="                          Or Login"
+        android:id="@+id/logintextview"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUpButton"
+        android:layout_marginTop="130dp"
+        android:text="Designed and developed by R.A.Emesh Ranasinghe"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

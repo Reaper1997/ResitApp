@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "804800426145",
+    "firebase_url": "https://resit-project.firebaseio.com",
+    "project_id": "resit-project",
+    "storage_bucket": "resit-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804800426145:android:e5c4a30875671966",
+        "android_client_info": {
+          "package_name": "com.example.steven.resitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804800426145-b0mvpm2t6a5aol7j5b86abfmistec4jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.steven.resitapp",
+            "certificate_hash": "d02f4ddbe0ef342d1e5fabd84c089d6126b8d26a"
+          }
+        },
+        {
+          "client_id": "804800426145-489s7st93vm4bkejr87d3rknf2n4gi8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB01e3anmPYLOK6FiIn7yMIUsSwoyABq3E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804800426145-489s7st93vm4bkejr87d3rknf2n4gi8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
